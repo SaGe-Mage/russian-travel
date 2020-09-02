@@ -1,0 +1,8 @@
+.cover__text {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  max-width: 560px;
+}
