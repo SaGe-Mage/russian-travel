@@ -1,7 +1,19 @@
 .place {
-  margin-top: 83px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
+  margin-bottom: 63px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-column-gap: 17px;
+  grid-row-gap: 42px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    margin-bottom: 78px;
+  }
 }

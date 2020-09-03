@@ -1,0 +1,6 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  min-height: 43px;
+  justify-content: flex-end;
+}

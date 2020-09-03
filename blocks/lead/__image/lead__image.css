@@ -1,4 +1,10 @@
 .lead__image {
-  display: block;
+  width: 100%;
   padding-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    padding-top: 56px;
+  }
 }
