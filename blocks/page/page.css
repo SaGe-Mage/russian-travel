@@ -1,6 +1,6 @@
 .page {
   background-color: #2A2C2F;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   color: #ffffff;
 }
 
@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 890px) {
   .page {
     padding: 0 24px;
   }

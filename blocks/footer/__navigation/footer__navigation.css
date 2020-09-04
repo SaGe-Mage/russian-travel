@@ -1,10 +1,11 @@
 .footer__navigation {
+  padding: 0;
   min-width: 465px;
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
   .footer__navigation {
     min-width: auto;
     min-height: 248px;
