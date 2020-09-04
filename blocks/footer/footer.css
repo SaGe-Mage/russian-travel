@@ -4,6 +4,7 @@
   margin: 92px auto 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (max-width: 890px) {
@@ -15,6 +16,7 @@
 @media screen and (max-width: 700px) {
   .footer {
     min-height: 310px;
+    align-items: flex-start;
     margin-top: 64px;
     flex-direction: column;
   }
