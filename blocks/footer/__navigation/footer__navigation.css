@@ -1,5 +1,13 @@
 .footer__navigation {
-  width: 465px;
+  min-width: 465px;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__navigation {
+    min-width: auto;
+    min-height: 248px;
+    flex-direction: column;
+  }
 }
